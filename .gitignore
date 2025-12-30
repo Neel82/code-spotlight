@@ -1,0 +1,44 @@
+# =========================
+# Node
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# VS Code Extension build
+# =========================
+out/
+*.vsix
+
+# =========================
+# Webview build artifacts
+# =========================
+webview/node_modules/
+webview/.vite/
+webview/dist/.vite/
+
+# ❗ IMPORTANT
+# Keep webview/dist checked in
+# DO NOT ignore webview/dist
+# =========================
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS Code local settings
+# =========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json

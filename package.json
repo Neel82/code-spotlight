@@ -1,0 +1,44 @@
+{
+  "name": "code-spotlight",
+  "displayName": "Code Spotlight",
+  "description": "Magnify and present selected code in real time",
+  "version": "0.1.0",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Productivity"
+  ],
+  "activationEvents": [
+    "onCommand:codeSpotlight.magnify"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codeSpotlight.magnify",
+        "title": "Code Spotlight: Magnify Selection"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "codeSpotlight.magnify",
+        "key": "ctrl+alt+m",
+        "mac": "cmd+alt+m",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "vscode:prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^3.6.0",
+    "typescript": "^5.0.0"
+  }
+}
