@@ -1,136 +1,112 @@
-Code Spotlight
+# Code Spotlight
 
-Code Spotlight lets you magnify selected code in a dedicated panel — perfect for presentations, live demos, teaching, streaming, and screen recording.
+![Code Spotlight Icon](images/icon.png)  
+
+**Code Spotlight** lets you magnify selected code in a dedicated panel — perfect for presentations, live demos, teaching, streaming, and screen recording.
 
 No more squinting at small fonts or zooming your entire editor.
 
-✨ Features
+---
 
-🔍 Magnify selected code in a separate panel
+## ✨ Features
 
-🔄 Live mode – automatically updates as selection changes
+- 🔍 Magnify selected code in a separate panel  
+- 🔄 **Live mode** – automatically updates as selection changes  
+- 🧷 **Manual mode** – freeze the spotlight when Live is off  
+- 🎯 Syntax highlighting (TypeScript, TSX, JavaScript, JSX, Python, Java, and more)  
+- 🔠 Font size controls (A+ / A−)  
+- 🖥️ Presentation fullscreen mode  
+- 🖱️ Ctrl + Scroll zoom (works with mouse & laptop touchpad)  
+- 🚀 Lightweight and fast  
 
-🧷 Manual mode – freeze the spotlight when Live is off
+---
 
-🎯 Syntax highlighting (TypeScript, TSX, JavaScript, JSX, Python, Java, and more)
+## 📸 Demo
 
-🔠 Font size controls (A+ / A−)
+![Demo GIF](media/demo.gif)
 
-🖥️ Presentation fullscreen mode
+_Select code → Open Code Spotlight → Live toggle → Zoom → Fullscreen_
 
-🖱️ Ctrl + Scroll zoom (works with mouse & laptop touchpad)
+> **Tip:** Extensions with GIFs get more installs on the Marketplace.
 
-🚀 Lightweight and fast
+---
 
-📸 Preview
+## 🚀 Getting Started
 
-Add a GIF here showing:
-Select code → Open Code Spotlight → Live toggle → Zoom → Fullscreen
-
-(Strongly recommended — extensions with GIFs get more installs)
-
-🚀 Getting Started
-Open Code Spotlight
-
-Select any code in the editor
-
-Open the Command Palette
-
-Windows / Linux: Ctrl + Shift + P
-
-macOS: Cmd + Shift + P
-
-Run:
-
-Code Spotlight: Magnify Selection
-
+1. Select any code in the editor  
+2. Open the Command Palette:  
+   - Windows / Linux: `Ctrl + Shift + P`  
+   - macOS: `Cmd + Shift + P`  
+3. Run: **Code Spotlight: Magnify Selection**  
 
 A spotlight panel opens beside your editor.
 
-🎛️ Controls
-Toolbar
-Control	Description
-A+ / A−	Increase or decrease font size
-Live	Toggle live selection updates
-Fullscreen	Maximize the spotlight panel
-Mouse Zoom
+---
 
-Ctrl + Scroll → Zoom in/out
+## 🎛️ Toolbar Controls
 
-Works with:
+| Control | Description |
+| ------- | ----------- |
+| A+ / A− | Increase or decrease font size |
+| Live    | Toggle live selection updates |
+| Fullscreen | Maximize the spotlight panel |
+| Ctrl + Scroll | Zoom in/out (works with mouse wheel and laptop touchpad) |
 
-Mouse wheel
+---
 
-Laptop touchpad (two-finger scroll)
+## 🔄 Live vs Manual Mode
 
-🔄 Live vs Manual Mode
+- **Live ON:** Spotlight updates automatically as you change selection  
+- **Live OFF:** Spotlight stays frozen — useful when explaining a specific snippet
 
-Live ON
+---
 
-Spotlight updates automatically as you change selection
+## 🧠 Why Code Spotlight?
 
-Live OFF
+- Presenting code in meetings  
+- Teaching programming  
+- Recording tutorials  
+- Streaming coding sessions  
+- Code walkthroughs without distracting UI
 
-Spotlight stays frozen
+---
 
-Useful when explaining a specific snippet
-
-🧠 Why Code Spotlight?
-
-Presenting code in meetings
-
-Teaching programming
-
-Recording tutorials
-
-Streaming coding sessions
-
-Code walkthroughs without distracting UI
-
-🛠 Supported Languages
+## 🛠 Supported Languages
 
 Syntax highlighting is powered by PrismJS and supports:
 
-TypeScript
+- TypeScript / TSX  
+- JavaScript / JSX  
+- Python  
+- Java  
+- And more (automatically loaded)
 
-TSX
+---
 
-JavaScript
+## ⚙️ Default Shortcut (optional)
 
-JSX
+You can assign a shortcut to **Code Spotlight: Magnify Selection**:
 
-Python
+- Windows/Linux: `Ctrl + Alt + M`  
+- macOS: `Cmd + Alt + M`
 
-Java
+---
 
-And more (automatically loaded)
+## 📦 Extension Status
 
-⚙️ Default Shortcut (optional)
+✅ Stable  
+🚀 Actively developed  
+🎯 Focused on clarity & presentations  
 
-You may assign your own shortcut to:
+---
 
-Code Spotlight: Magnify Selection
+## 🐞 Feedback & Contributions
 
+Found a bug or have a feature request?  
+Feel free to [open an issue](https://github.com/Neel82/code-spotlight/issues) or suggestion.
 
-Example:
+---
 
-Windows/Linux: Ctrl + Alt + M
-
-macOS: Cmd + Alt + M
-
-📦 Extension Status
-
-✅ Stable
-
-🚀 Actively developed
-
-🎯 Focused on clarity & presentations
-
-🐞 Feedback & Contributions
-
-Found a bug or have a feature request?
-Feel free to open an issue or suggestion.
-
-📄 License
+## 📄 License
 
 MIT

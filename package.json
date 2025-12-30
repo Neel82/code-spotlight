@@ -3,7 +3,7 @@
   "displayName": "Code Spotlight",
   "description": "Magnify and present selected code in real time",
   "version": "0.1.0",
-  "publisher": "your-name",
+  "publisher": "Neelakantan",
   "engines": {
     "vscode": "^1.85.0"
   },
