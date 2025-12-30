@@ -1,0 +1,44 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore source code for the extension
+src/
+
+# Ignore TypeScript / source maps
+*.ts
+*.tsx
+*.map
+
+# Ignore webview source (we only include the built output)
+webview/src/
+webview/node_modules/
+
+# Ignore configuration files not needed in the package
+.vscode/
+*.log
+*.jsonc
+*.tsconfig*
+*.eslint*
+
+# Ignore documentation that isn't required
+README.old
+# Ignore other markdown files but keep main README and LICENSE
+*.md
+!README.md
+!LICENSE
+
+# Ignore test files
+test/
+__tests__/
+*.spec.ts
+*.test.ts
+
+# Keep compiled output for extension
+!out/
+
+# Keep built webview
+!webview/dist/
+
+# Keep images/icons
+!images/
+!media/
