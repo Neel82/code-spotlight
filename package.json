@@ -14,6 +14,14 @@
     "onCommand:codeSpotlight.magnify"
   ],
   "main": "./out/extension.js",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Neel82/code-spotlight.git"
+  },
+  "bugs": { "url": "https://github.com/Neel82/code-spotlight/issues" },
+  "homepage": "https://github.com/Neel82/code-spotlight#readme",
+  "license": "MIT",
   "contributes": {
     "commands": [
       {
@@ -40,5 +48,12 @@
     "@types/vscode": "^1.85.0",
     "@vscode/vsce": "^3.6.0",
     "typescript": "^5.0.0"
-  }
+  },
+  "files": [
+    "out/**",
+    "webview/dist/**",
+    "images/**",
+    "README.md",
+    "package.json"
+  ]
 }
