@@ -2,7 +2,7 @@
   "name": "code-spotlight",
   "displayName": "Code Spotlight — Code Magnifier",
   "description": "Magnify and present selected code in real time",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "Neelakantan",
   "engines": {
     "vscode": "^1.85.0"
@@ -19,7 +19,9 @@
     "type": "git",
     "url": "https://github.com/Neel82/code-spotlight.git"
   },
-  "bugs": { "url": "https://github.com/Neel82/code-spotlight/issues" },
+  "bugs": {
+    "url": "https://github.com/Neel82/code-spotlight/issues"
+  },
   "homepage": "https://github.com/Neel82/code-spotlight#readme",
   "license": "MIT",
   "contributes": {
